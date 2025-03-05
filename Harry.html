@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random HTML Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        .image-container {
+            margin: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to My Random HTML Page!</h1>
+
+    <div class="image-container">
+        <img src="https://via.placeholder.com/300" alt="Random Image">
+    </div>
+
+    <p id="message">Click the button below for some fun!</p>
+
+    <button onclick="changeText()">Click Me!</button>
+
+    <script>
+        function changeText() {
+            document.getElementById('message').innerText = "You've clicked the button! 🎉";
+        }
+    </script>
+
+</body>
+</html>
